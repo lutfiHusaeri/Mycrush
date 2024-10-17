@@ -1,0 +1,89 @@
+.foto {
+    color: white;
+    background: black;
+    font-family: cursive;
+    background-image: url("button.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border: 2px solid wait;
+    margin: 100px;
+    margin bottom: 50%;
+    margin top: 50%;
+    border-radius: 12px;
+  }
+
+/* CSS for Event World */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centering content container */
+  .contents {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the message */
+  h3, h4 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  h4 {
+    color: #d35400;
+  }
+  
+  /* Image styling */
+  img {
+
+    justify-content: center;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 600px) {
+    .contents {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
